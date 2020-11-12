@@ -1,0 +1,21 @@
+
+
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+
+}
+
+html[data-theme='dark'] {
+  --global-bg-color: #000;
+}
+
+html[data-theme='light'] {
+  --global-bg-color: #fff;
+}
+
+$jet: var(--global-bg-color);
+
+
+

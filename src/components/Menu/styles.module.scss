@@ -1,0 +1,15 @@
+@import 'styles/index';
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #253A46;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+.menu a {
+color:$jet;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

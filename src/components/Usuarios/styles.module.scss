@@ -1,0 +1,35 @@
+.table_container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+    border: 1px solid black;
+    table {
+      width: 100%;
+      text-align: center;
+      thead{
+          background-color: darken($color: #fff, $amount: 75);
+      }
+      tbody tr:nth-child(odd){
+        background-color: silver;
+      }
+      tr{
+        transition: all ease .1s;
+        &:hover{
+            transform: scale(1.01);
+            cursor:pointer;
+        }
+      }
+      th{
+        padding: 10px 0;
+        font-size: 1.4rem;
+        color: azure;        
+      }
+      td{      
+        padding: 10px 0;
+        font-size: 1.4rem;
+        color: black;
+        border-bottom: 1px solid black;      
+        border-right: 1px solid black;      
+      }
+    }
+  }
+  

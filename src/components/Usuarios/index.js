@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ax from 'axios'
+import s from './styles.module.scss'
 
 const Usuarios = () => {
   const [users, setUsers] = useState([])
@@ -33,7 +34,7 @@ const Usuarios = () => {
   },[])
 
   return (
-    <div className="table-container">
+    <div className={s.table_container}>
     <table>
       <thead>
         <tr>
